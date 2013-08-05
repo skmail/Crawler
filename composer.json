@@ -1,0 +1,31 @@
+{
+    "name" : "skmail/crawler",
+    "type" : "library",
+    "description" : "PHP Crawler",
+    "keywords" : ["elasticsearch","Crawler","Search engine", "client"],
+    "homepage" : "http://github.com/skmail",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Solaiman Kmail",
+            "email" : "psokmail@gmail.com",
+            "homepage" : "psokmail.com"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.3.0",
+        "zendframework/zend-log"  : "2.*",
+        "zendframework/zend-http" : "2.*",
+        "zendframework/zend-json" : "2.*",
+        "zendframework/zend-mail" : "2.*",
+        "zendframework/zend-di" : "2.*",
+        "zendframework/zend-config" : "2.*",
+        "zendframework/zend-dom" : "2.*"
+
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Solaiman" : "src/"
+        }
+    }
+}
