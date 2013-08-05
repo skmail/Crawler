@@ -6,7 +6,7 @@ use \Zend\Di\Di as Di;
 
 class Crawler{
 
-	protected $_website = 'http://www.blue.ps/';
+	protected $_website = '';
 
 	public function __construct(){
 		$this->_scan();

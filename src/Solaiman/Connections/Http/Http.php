@@ -66,6 +66,7 @@ class Http{
 		if(count($images) > 0){
 			$vars['images'] = $images;
 		}
+		$vars['time'] = time();
 		$this->_finishedUrls[] = $url;
 		$this->_outputs[] = $vars;		
 		
