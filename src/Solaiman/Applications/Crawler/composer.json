@@ -1,0 +1,24 @@
+{
+    "name" : "skmail/crawler-app-crawler",
+    "type" : "library",
+    "description" : "PHP Crawler",
+    "keywords" : ["Crawler","Search engine", "Web spider","bot"],
+    "homepage" : "http://github.com/skmail/crawler-app-crawler",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Solaiman Kmail",
+            "email" : "psokmail@gmail.com",
+            "homepage" : "psokmail.com"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.3.0",
+        "zendframework/zend-db"  : "2.*"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Solaiman\\Applications\\Crawler": ""
+        }
+    }
+}

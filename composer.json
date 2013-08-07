@@ -17,10 +17,10 @@
         "zendframework/zend-log"  : "2.*",
         "zendframework/zend-http" : "2.*",
         "zendframework/zend-json" : "2.*",
-        "zendframework/zend-mail" : "2.*",
         "zendframework/zend-di" : "2.*",
         "zendframework/zend-config" : "2.*",
-        "zendframework/zend-dom" : "2.*"
+        "zendframework/zend-console" : "2.*",
+        "zendframework/zend-db"  : "2.*"
 
     },
     "autoload" : {
